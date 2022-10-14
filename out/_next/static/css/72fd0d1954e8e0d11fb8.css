@@ -1,0 +1,31 @@
+.Home_app-title__1Dx2e {
+    margin-top: 0;
+}
+.Home_home-cards__Y0TrT {
+    display: grid;
+    grid-gap: 25px;
+}
+.Home_home-card__kzYCy {
+    display: grid;
+    grid-template-columns: 75px auto;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    grid-gap: 25px;
+    background-color: #fff;
+    padding: 15px;
+    -webkit-box-shadow: shadow;
+    box-shadow: shadow;
+    border-radius: 8px;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    -webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+.Home_home-card__kzYCy:hover {
+    background-color: #d3d3d3;
+}
+.Home_home-card__kzYCy img {
+    margin: 0 auto;
+    display: block;
+}

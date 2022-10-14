@@ -1,0 +1,50 @@
+.drink-card {
+    background-color: var(--white);
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.drink-card h4 {
+    margin: 0;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 10px;
+    max-width: -webkit-fill-available;
+}
+
+.drink-card p {
+    margin-bottom: 0;
+}
+
+.list-content {
+    margin-top: 10px;
+}
+
+.drink-card img {
+    max-width: -webkit-fill-available;
+    object-fit: cover;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: var(--shadow);
+}
+
+.drink-card h4 {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.drink-info {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 25px;
+}
+
+.drink-info span {
+    margin-left: 5px;
+    line-height: 1.5em;
+}

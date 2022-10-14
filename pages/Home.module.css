@@ -1,0 +1,30 @@
+.app-title {
+    margin-top: 0;
+}
+
+.home-cards {
+    display: grid;
+    grid-gap: 25px;
+}
+
+.home-card {
+    display: grid;
+    grid-template-columns: 75px auto;
+    align-items: center;
+    grid-gap: 25px;
+    background-color: var(--white);
+    padding: 15px;
+    box-shadow: shadow;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    transition: 0.4s background-color;
+}
+
+.home-card:hover {
+    background-color: lightgrey;
+}
+
+.home-card img {
+    margin: 0 auto;
+    display: block;
+}

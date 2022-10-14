@@ -1,0 +1,40 @@
+.panel-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.panel-wrapper > div {
+    background-color: var(--white);
+    font-size: 32px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px solid var(--black);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+}
+
+.panel-wrapper > div:hover {
+    background-color: var(--lightGray);
+}
+
+.bank-number-wrapper {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.bank-number-wrapper > span:first-child {
+    font-size: 44px;
+    font-weight: bold;
+    color: var(--lightGreen);
+    display: block;
+}
+
+.bank-number-wrapper > span:last-child {
+    margin-top: 10px;
+    display: block;
+    color: var(--gray);
+}

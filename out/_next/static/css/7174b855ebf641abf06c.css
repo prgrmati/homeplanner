@@ -1,0 +1,97 @@
+@-webkit-keyframes Loading_rotating__1b17O {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+    }
+}
+@keyframes Loading_rotating__1b17O {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+    }
+}
+.Loading_loading-wrapper__2ll_v {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-left: 30px;
+    width: 100%;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    height: 100%;
+    background-color: #cdc4c48f;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+.Loading_loading-wrapper__2ll_v img {
+    -webkit-animation: Loading_rotating__1b17O 2s linear infinite;
+    animation: Loading_rotating__1b17O 2s linear infinite;
+}
+.SingleCleaning_single-clean__3LBxF {
+    background-color: #fff;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.SingleCleaning_single-clean__3LBxF h4 {
+    margin: 0;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    max-width: -webkit-fill-available;
+    text-transform: uppercase;
+}
+.SingleCleaning_single-clean__3LBxF p {
+    margin-bottom: 0;
+}
+.SingleCleaning_single-clean__3LBxF ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.SingleCleaning_single-clean__3LBxF li {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.SingleCleaning_delete-wrapper__3MbGO {
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 25px;
+    right: 25px;
+}
+.SingleCleaning_delete-confirm-buttons__1W7aS {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: -15px;
+}
+.SingleCleaning_delete-confirm-buttons__1W7aS > button {
+    border: none;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.SingleCleaning_delete-confirm-buttons__1W7aS > button:last-child {
+    background-color: #ff4d4fb5;
+    color: #fff;
+}

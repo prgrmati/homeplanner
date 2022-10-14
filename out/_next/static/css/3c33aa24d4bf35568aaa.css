@@ -1,0 +1,43 @@
+.Drink_drink-card__2Vrb6 {
+    background-color: #fff;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.Drink_drink-card__2Vrb6 h4 {
+    margin: 0;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    max-width: -webkit-fill-available;
+}
+.Drink_drink-card__2Vrb6 p {
+    margin-bottom: 0;
+}
+.Drink_list-content__3Uyaf {
+    margin-top: 10px;
+}
+.Drink_drink-card__2Vrb6 img {
+    max-width: -webkit-fill-available;
+    object-fit: cover;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+.Drink_drink-card__2Vrb6 h4 {
+    text-align: center;
+    font-size: 28px;
+    margin: 15px 0 25px;
+}
+.Drink_drink-info__1ngfY {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 25px;
+}
+.Drink_drink-info__1ngfY span {
+    margin-left: 5px;
+    line-height: 1.5em;
+}

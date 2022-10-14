@@ -1,0 +1,77 @@
+.Notification_wrapper__2ctUH {
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    text-align: right;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin-left: auto;
+    right: 25px;
+    font-size: 14px;
+    padding: 15px 25px;
+    position: fixed;
+    bottom: 75px;
+    font-style: italic;
+    z-index: 125;
+}
+.TypePanel_panel-wrapper__3_gPr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.TypePanel_panel-wrapper__3_gPr > div {
+    background-color: var(--white);
+    font-size: 32px;
+    height: 100px;
+    width: 100px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    border-radius: 1px solid var(--black);
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+}
+.TypePanel_panel-wrapper__3_gPr > div:hover {
+    background-color: #f5f5f5;
+}
+.TypePanel_bank-number-wrapper__MTfVS {
+    text-align: center;
+    margin: 50px 0;
+}
+.TypePanel_bank-number-wrapper__MTfVS > span:first-child {
+    font-size: 44px;
+    font-weight: 700;
+    color: #4acd4a;
+    display: block;
+}
+.TypePanel_bank-number-wrapper__MTfVS > span:last-child {
+    margin-top: 10px;
+    display: block;
+    color: gray;
+}
+.Savings_header__28jO0 {
+    background-color: var(--white);
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    padding: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.Savings_header-image__2Nb8l {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.Savings_header__28jO0 h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 15px;
+}

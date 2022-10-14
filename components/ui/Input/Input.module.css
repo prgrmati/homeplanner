@@ -1,0 +1,10 @@
+.input {
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--white);
+    text-align: center;
+    width: 100%;
+    max-width: 50vw;
+}

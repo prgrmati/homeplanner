@@ -1,0 +1,12 @@
+.category-filter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.category-filter .checkbox {
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid var(--black);
+    border-radius: 2px;
+}
